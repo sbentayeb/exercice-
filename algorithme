@@ -1,0 +1,224 @@
+programme max dans un tableau 
+variables
+var tab: array of integer [10] ; 
+var i, max: integer; 
+
+begin 
+for( i=1 to tab.lengh)
+  begin
+   readln(tab[i])
+  end
+  endfor
+for( i=1 to tab.lengh)
+  do 
+   readln(tab[i])
+  if tab[i]< tab[i+1] then 
+   
+  max:= tab[i+1]
+ 
+
+  
+  endfor
+
+write (max)
+
+
+end 
+/***************************************//*******************************************
+algorithe somme d elemenyts 
+variables 
+
+var tab array of integer[10]
+var sum, i : integer
+
+begin 
+/***   initialiser un tableau 
+for( i=1 to tab.lengh)
+  begin
+   readln(tab[i])
+  end
+  endfor
+for i=0 to  tab .lenght-1 
+begin 
+sum=sum+tab[i]
+end
+endfor
+end
+
+/ *----------- produit vectorielllll**------------------////////////////////////////////////////////////
+
+programme produit vectoriel
+
+variables
+
+var  tab1: array of integer [4]
+var  tab1: array of integer [4]
+var  matrix : array of integer [4][4]
+int i, j: integer 
+begin
+
+for( i=1 to tab1.lengh)
+  begin
+   readln(tab1[i])
+  end
+  endfor
+
+  for( j= 0 to tab2.lengh)
+  begin
+   readln(tab[i])
+  end
+  endfor
+
+
+for i=0 to tab1.lenght  do 
+
+begin 
+
+for j="0 to  tab2.lengnt  do 
+begin 
+    matrix [i][j]=tab1[i|*tab2[j]
+end
+
+
+
+
+end
+
+endfor 
+
+
+/****************************//*********** algorithle structure de donnees ********/
+studentName : structure
+
+   firstName: string[10]
+   lastName: string[10]
+ 
+ 
+ 
+ 
+   student: structure    
+    name : studentNaùeg
+    age: integer
+    isFailling; bolean
+endstrcut
+
+variables
+
+var s1: student
+
+begin
+     write("entrer your surdent info")
+
+     redln(s1.name.firstName)
+     redln(s1.name.LastNName)
+     readln(s1.age)
+     readln(s1.isFailling)
+end 
+
+*------************ declaration de liste ******//////*************
+
+
+lineaire chainé
+
+List: struct
+valeur  :  integer
+next : ^List
+// previous:^List
+endstruct; 
+
+
+
+var testList: List; 
+begin 
+
+testList^.next^.next.value
+
+pour parcourir 
+
+while (testList^.next <> null)
+do 
+
+traitement
+
+curentitem:=testList^.next
+end
+
+
+/*************************************//////////////////////////////les structures de donnee  *****-----------//////////////////////////
+
+
+
+programme AddList
+
+variables 
+
+var list: struct
+   value: integer
+   next: ¨list
+endstruct
+
+var eList: list
+var new; tempList: list
+
+
+begin
+
+create(new) /**** reserver une case memoire 
+readln(new.value)
+new¨.next=eList; /**** il pointe vers l element prochain qui est le debut de la ma liste 
+eList := new; 
+
+
+/////  create an element at a range n at the list **//////////////////////////////////////
+var n, counter integer 
+tempList:=eList
+
+while ( elist¨<>null and  counter <=n) {
+ templList:= templList¨.next
+}
+
+create(new)
+readlin(new.value)
+new¨.next:=tempList¨.next
+tempList¨.next:=new
+
+counter:=0; 
+
+while (elist<>null and  counter <n) do 
+begin
+if (counter< n-1) then 
+elist¨.next:= tempList; 
+ 
+end
+
+
+/*******************suppression d un element d une liste ***////////////////////////////**////////////////////////////
+free(element)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if l¨.next== null  then 
+l.next=ele
+
+while (testList^.next <> null)
+do 
+
+traitement
+
+L^.next
+end
+
+
+
